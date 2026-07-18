@@ -14,7 +14,7 @@ module.exports = {
   success: "<:vm_success:1496157180519518330>",
   error: "<:vm_error:1496157184780668928>",
   info: "<:vm_info:1496157189470027909>",
-  loading: "<:vm_loading:1496157194519838882>",
+  loading: "<a:blackworld:1526066492104249494>",
   check: "<:vm_check:1496157198437322762>",
 
   // ── Antinuke actions ─────────────────────────────────────
