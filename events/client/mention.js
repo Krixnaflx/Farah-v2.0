@@ -25,7 +25,7 @@ const TEAM = [
   },
   {
     name:        "Rasmalai",
-    role:        "Illitrate",
+    role:        "Queen",
     description: "username: (kiwi.wi_wi)",
     emoji:       e.rasmalai,
     userId:      1249694598821974050,
