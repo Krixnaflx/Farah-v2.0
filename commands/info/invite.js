@@ -14,7 +14,7 @@ const e = require("../../emojis/infoemoji");
 
 module.exports = {
   name:             "invite",
-  description:      "Get the premium invite link for Vermeil.",
+  description:      "Get the premium invite link for Awan.",
   category:         "info",
   aliases:          ["inv", "addbot"],
   usage:            "",
@@ -26,7 +26,7 @@ module.exports = {
 
   slashData: new SlashCommandBuilder()
     .setName("invite")
-    .setDescription("Get the premium invite link for Vermeil.")
+    .setDescription("Get the premium invite link for Awan.")
     .toJSON(),
 
   async execute(client, ctx) {
@@ -35,10 +35,10 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor(0x4A3F5F)
-      .setTitle(`${e.invite} Add Vermeil to your Server`)
+      .setTitle(`${e.invite} Add Awan to your Server`)
       .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 512 }))
       .setDescription(
-        `Expand your community with **Vermeil's** premium features. High-performance security, music, and management tools in one bot.\n\n` +
+        `Expand your community with **Awan's** premium features. High-performance security, music, and management tools in one bot.\n\n` +
         `**Why invite us?**\n` +
         `${e.shield} **Ultimate Security:** Anti-Nuke & Verification.\n` +
         `${e.star} **Premium Features:** Advanced Leveling & Economy.\n` +
@@ -53,13 +53,13 @@ module.exports = {
 
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
-        .setLabel("Invite Vermeil")
+        .setLabel("Invite Awan")
         .setURL(inviteUrl)
         .setStyle(ButtonStyle.Link)
         .setEmoji(e.invite),
       new ButtonBuilder()
         .setLabel("Support")
-        .setURL(client.config?.supportServer || "https://discord.gg")
+        .setURL(client.config?.supportServer || "https://discord.gg/Cq2ktwugAY")
         .setStyle(ButtonStyle.Link)
         .setEmoji(e.support)
     );
