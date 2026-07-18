@@ -50,7 +50,7 @@ module.exports = {
 
   // ── Emoji Hosting ────────────────────────────────────
   // The bot will upload custom emojis to these servers.
-  emojiServers: ["YOUR_SERVER_ID_1", "YOUR_SERVER_ID_2"],
+  emojiServers: ["1360081627094581348", "1524101214655090828"],
 
   // ── Lavalink ─────────────────────────────────────────────
   lavalink: {
