@@ -14,7 +14,7 @@ const e = require("../../emojis/infoemoji");
 
 module.exports = {
   name:             "supportserver",
-  description:      "Join the official Vermeil support community.",
+  description:      "Join the official Awan support community.",
   category:         "info",
   aliases:          ["support", "ss", "server"],
   usage:            "",
@@ -26,7 +26,7 @@ module.exports = {
 
   slashData: new SlashCommandBuilder()
     .setName("supportserver")
-    .setDescription("Join the official Vermeil support community.")
+    .setDescription("Join the official Awan support community.")
     .toJSON(),
 
   async execute(client, ctx) {
@@ -35,7 +35,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor(0x4A3F5F)
-      .setTitle(`${e.support} Vermeil Support Community`)
+      .setTitle(`${e.support} Awan Support Community`)
       .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 512 }))
       .setDescription(
         `Need help with setup? Want to suggest a feature? Join our community today!\n\n` +
