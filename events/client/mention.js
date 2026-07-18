@@ -17,29 +17,29 @@ const e = require("../../emojis/helpemoji");
 // ── Team data ─────────────────────────────────────────────
 const TEAM = [
   {
-    name:        "Sin",
-    role:        "Project Lead & Developer",
-    description: "username: (sinlt)",
+    name:        "krishna",
+    role:        "Project Developer",
+    description: "username: (krixnaflx)",
     emoji:       e.owner,
-    userId:      null, // set to Discord user ID to fetch avatar
+    userId:      1370627845419700315, // set to Discord user ID to fetch avatar
   },
   {
-    name:        "Mist",
-    role:        "Developer",
-    description: "username: (f_mist)",
+    name:        "Rasmalai",
+    role:        "Illitrate",
+    description: "username: (kiwi.wi_wi)",
     emoji:       e.dev,
-    userId:      null,
+    userId:      1249694598821974050,
   },
   {
-    name:        "Yz",
+    name:        "Durex",
     role:        "Developer & Designer",
-    description: "username: (.7yml) ",
+    description: "username: (uskaashiq) ",
     emoji:       e.designer,
     userId:      null,
   },
 ];
 
-const SUPPORT_URL = "https://discord.gg/KdnAKcHupW";
+const SUPPORT_URL = "https://discord.gg/Cq2ktwugAY";
 const BANNER_URL  = "https://cdn.discordapp.com/attachments/1457521614009929759/1488087364239622374/a_b143a17e16f55e0c021b21f7b806b9c3.gif?ex=69cb80da&is=69ca2f5a&hm=b1c8bb5766e088e2090bc8faa28684839ca1769c97992e0de7eef394bfb281be&";
 
 module.exports = {
@@ -70,7 +70,7 @@ module.exports = {
     // ── Loading ────────────────────────────────────────
     const loadingEmbed = new EmbedBuilder()
       .setColor(0x7d5ba6)
-      .setDescription(`${e.loading} **Initializing Vermeil Mention Menu...**`);
+      .setDescription(`${e.loading} **Initializing Awan's Menu...**`);
 
     const msg = await message.reply({ embeds: [loadingEmbed] });
     await new Promise(r => setTimeout(r, 1100));
@@ -82,15 +82,15 @@ module.exports = {
       .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 512 }))
       .setImage(BANNER_URL)
       .setDescription(
-        `Greetings, **${message.author.username}**. I am the **Vermeil** core system.\n\n` +
+        `Greetings, **${message.author.username}**. I am the **Awan** core system.\n\n` +
         `${e.settings} **Server Prefix:** \`${prefix}\`\n` +
         `${e.cmd} **Help Command:** \`${prefix}help\``
       )
       .addFields(
-        { name: "Developer", value: "`Sin`",         inline: true },
-        { name: "Status",    value: "`Operational`", inline: true },
+        { name: "Owner", value: "`Krishna`",         inline: true },
+        { name: "Status",    value: "`Offline`", inline: true },
       )
-      .setFooter({ text: `Developed by Rex, Akimi & Lumian | ${client.user.username}`, iconURL: client.user.displayAvatarURL() })
+      .setFooter({ text: `Developed by krixnaflx | ${client.user.username}`, iconURL: client.user.displayAvatarURL() })
       .setTimestamp();
 
     // ── Dropdowns ──────────────────────────────────────
@@ -99,9 +99,9 @@ module.exports = {
         .setCustomId(`mention_menu_${message.id}`)
         .setPlaceholder("Select an option...")
         .addOptions([
-          new StringSelectMenuOptionBuilder().setLabel("👥 About Team").setDescription("Meet the developers behind Vermeil").setValue("team").setEmoji(e.team),
+          new StringSelectMenuOptionBuilder().setLabel("👥 About Team").setDescription("Meet the developers behind Awan").setValue("team").setEmoji(e.team),
           new StringSelectMenuOptionBuilder().setLabel("📜 Commands List").setDescription("Open the interactive help menu").setValue("help").setEmoji(e.commands),
-          new StringSelectMenuOptionBuilder().setLabel("📨 Invite Bot").setDescription("Add Vermeil to your server").setValue("invite").setEmoji(e.invite),
+          new StringSelectMenuOptionBuilder().setLabel("📨 Invite Bot").setDescription("Add Awan to your server").setValue("invite").setEmoji(e.invite),
           new StringSelectMenuOptionBuilder().setLabel("🔗 Support Server").setDescription("Join our support server").setValue("support").setEmoji(e.support),
         ])
     );
