@@ -51,4 +51,5 @@ module.exports = {
   bot: "<:facewithbagsundereyes:1527391592003014736>",
   stats:     "📊",
   uptime:    "⏱️",
+  rasmalai:    "<:z_symb_queen:1528075684759470171>",
 };
