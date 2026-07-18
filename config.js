@@ -22,7 +22,7 @@ module.exports = {
 
   // ── Bot ──────────────────────────────────────────────────
   token:   "", // Fill in .env or here
-  prefix:  "!",
+  prefix:  ";",
   ownerID: "YOUR_DISCORD_ID",
        
   // ── Developer IDs ────────────────────────────────────────
@@ -41,10 +41,10 @@ module.exports = {
   // ── MongoDB Clusters ─────────────────────────────────────
   mongodb: {
     clusters: [
-      { name: "cluster1", uri: "YOUR_MONGODB_CLUSTER_1_URI" },
-      { name: "cluster2", uri: "YOUR_MONGODB_CLUSTER_2_URI" },
+      { name: "cluster1", uri: "mongodb://mongo:kwKlYfukvcVZVoPHsJpZZBJYaREqbuZk@tokaido.proxy.rlwy.net:16541" },
+      { name: "cluster2", uri: "mongodb://mongo:kwKlYfukvcVZVoPHsJpZZBJYaREqbuZk@tokaido.proxy.rlwy.net:16541" },
     ],
-    economyUri: "YOUR_ECONOMY_MONGODB_URI",
+    economyUri: "mongodb://mongo:kwKlYfukvcVZVoPHsJpZZBJYaREqbuZk@tokaido.proxy.rlwy.net:16541",
     maxServersPerCluster: 100,
   },
 
@@ -54,10 +54,10 @@ module.exports = {
 
   // ── Lavalink ─────────────────────────────────────────────
   lavalink: {
-    host: "YOUR_LAVALINK_HOST",
-    port: 443,
-    password: "YOUR_LAVALINK_PASSWORD",
-    secure: true,
+    host: "sg2-nodelink.nyxbot.app",
+    port: 3000,
+    password: "nyxbot.app/support",
+    secure: false,
     restVersion: "v4",
     name: "Main Node", 
   },
