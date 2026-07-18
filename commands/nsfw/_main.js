@@ -53,10 +53,7 @@ module.exports = {
     .addSubcommand(s => s.setName("anal").setDescription("Go anal on someone.").addUserOption(o => o.setName("user").setDescription("User to target").setRequired(true)))
     .toJSON(),
 
-  async execute(client, ctx) {
-    if (!ctx.interaction.channel.nsfw) {
-      return reply(ctx, { content: `${e.warning} This command can only be used in NSFW channels!`, ephemeral: true });
-    }
+
 
     const action = ctx.interaction.options.getSubcommand();
     const config = ACTIONS[action];
