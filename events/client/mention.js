@@ -136,9 +136,9 @@ module.exports = {
 
         const teamEmbed = new EmbedBuilder()
           .setColor(0x7d5ba6)
-          .setTitle(`${e.team} The Vermeil Team`)
+          .setTitle(`${e.team} The Awan's Team`)
           .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
-          .setDescription("Meet the talented team behind Vermeil.\n\u200b")
+          .setDescription("Here is the faces behind Awan.\n\u200b")
           .addFields(...teamFields)
           .setFooter({ text: `${client.user.username} | Team`, iconURL: client.user.displayAvatarURL() })
           .setTimestamp();
