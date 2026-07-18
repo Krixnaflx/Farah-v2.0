@@ -50,8 +50,8 @@ module.exports = {
     // ── Build Embed ──
     const embed = new EmbedBuilder()
       .setColor(0x4A3F5F)
-      .setTitle(`${e.star} Vermeil Statistics`)
-      .setDescription(`Vermeil is a high-performance, All-In-One Discord bot designed for professional community management and engagement.`)
+      .setTitle(`${e.star} Awan Statistics`)
+      .setDescription(`Awan is a high-performance, All-In-One Discord bot designed for professional community management and engagement.`)
       .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 512 }))
       .addFields(
         {
@@ -94,13 +94,13 @@ module.exports = {
     // ── Interactive Buttons ──
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
-        .setLabel("Invite Me")
-        .setURL(client.config?.inviteLink || "https://discord.com")
+        .setLabel("Invite Awan")
+        .setURL(client.config?.inviteLink || "https://discord.com/oauth2/authorize?client_id=1361725998877507849&permissions=8&integration_type=0&scope=bot+applications.commands")
         .setStyle(ButtonStyle.Link)
         .setEmoji(e.invite),
       new ButtonBuilder()
         .setLabel("Support Server")
-        .setURL(client.config?.supportServer || "https://discord.gg/KdnAKcHupW")
+        .setURL(client.config?.supportServer || "https://discord.gg/Cq2ktwugAY")
         .setStyle(ButtonStyle.Link)
         .setEmoji(e.support)
     );
