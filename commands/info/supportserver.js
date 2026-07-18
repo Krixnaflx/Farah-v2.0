@@ -31,7 +31,7 @@ module.exports = {
 
   async execute(client, ctx) {
     const author = ctx.type === "prefix" ? ctx.message.author : ctx.interaction.user;
-    const supportUrl = client.config?.supportServer || "https://discord.gg/KdnAKcHupW";
+    const supportUrl = client.config?.supportServer || "https://discord.gg/Cq2ktwugAY";
 
     const embed = new EmbedBuilder()
       .setColor(0x4A3F5F)
@@ -56,8 +56,8 @@ module.exports = {
         .setStyle(ButtonStyle.Link)
         .setEmoji(e.support),
       new ButtonBuilder()
-        .setLabel("Website")
-        .setURL("http://localhost:25104") // Using your web port
+        .setLabel("Web")
+        .setURL("http://krishnaflx.xo.je/") // Using your web port
         .setStyle(ButtonStyle.Link)
         .setEmoji(e.help)
     );
