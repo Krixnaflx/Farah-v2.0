@@ -40,7 +40,7 @@ const TEAM = [
 ];
 
 const SUPPORT_URL = "https://discord.gg/Cq2ktwugAY";
-const BANNER_URL  = "https://cdn.discordapp.com/attachments/1457521614009929759/1488087364239622374/a_b143a17e16f55e0c021b21f7b806b9c3.gif?ex=69cb80da&is=69ca2f5a&hm=b1c8bb5766e088e2090bc8faa28684839ca1769c97992e0de7eef394bfb281be&";
+const BANNER_URL  = "https://cdn.discordapp.com/attachments/1393161382647828480/1528277226125267026/Kaoru_Hana_Wa_Rin_To_Saku_GIF_Kaoru_Hana_wa_Rin_to_Saku_GIFs_entdecken_und_teilen.gif?ex=6a5db694&is=6a5c6514&hm=ae08440cbee739c0130f526680cd339804b770ee0a65f8db7c2855811b5ff494&";
 
 module.exports = {
   name: "messageCreate",
