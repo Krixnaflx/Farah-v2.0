@@ -1,5 +1,5 @@
 module.exports = {
-  voice: "<:vm_voice:1496157718615031829>",
+  voice: "<:soundcloudroundcoloricon:1490275601171484732>",
   lock: "<:lock1:1525843031826239728>",
   unlock: "<:unlock1:1525843099153203302>",
   hide: "<:hide:1525843007130177708>",
