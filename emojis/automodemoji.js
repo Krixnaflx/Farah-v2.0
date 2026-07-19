@@ -5,17 +5,17 @@
 module.exports = {
 
   // ── Status ───────────────────────────────────────────────
-  on: "<:vm_on:1496157252560752882>",
-  off: "<:vm_off:1496157256625160233>",
-  enabled: "<:vm_enabled:1496157262279082016>",
-  disabled: "<:vm_disabled:1496157268998230196>",
-  warning: "<:vm_warning:1496157273783799870>",
-  success: "<:vm_success:1496157278678814821>",
-  error: "<:vm_error:1496157283183362353>",
-  info: "<:vm_info:1496157286618632244>",
-  loading: "<:vm_loading:1496157289944711278>",
-  check: "<:vm_check:1496157292956094725>",
-  settings: "<:vm_settings:1496157297486073866>",
+  on: "<a:online:1525843048825749535>",
+  off: "<a:offline:1525843043281014845>",
+  enabled: "<:tick:1525843080148811857>",
+  disabled: "<:cross:1525842975249272842>",
+  warning: "<a:880726error:1526075721892757554>",
+  success: "<a:tick_POV:1526075730834882661>",
+  error: "<a:cx_info:1526075742281273515>",
+  info: "<:white_info:1525843115418718279>",
+  loading: "<a:blackworld:1526075706780553267>",
+  check: "<:tick:1525843080148811857>",
+  settings: "<a:settings:1525964289423446258>",
 
   // ── Heat system ───────────────────────────────────────────
   heat:        "🌡️",
@@ -28,7 +28,7 @@ module.exports = {
   strike:      "⚡",
   cap:         "🚨",
   multiplier:  "✖️",
-  degradation: "<:vm_on:1496157252560752882>",
+  degradation: "<a:online:1525843048825749535>",
   percent:     "%",
 
   // ── Filters ───────────────────────────────────────────────
@@ -39,9 +39,9 @@ module.exports = {
   chars:       "📝",
   newline:     "↩️",
   inactive:    "💤",
-  mention: "<:vm_on:1496157252560752882>",
+  mention: "<a:online:1525843048825749535>",
   attachment:  "📎",
-  invite: "<:vm_invite:1496157301940420638>",
+  invite: "<:links:1526066522521341962>",
   link:        "🌐",
   nsfw:        "🔞",
   words:       "🚫",
@@ -51,9 +51,9 @@ module.exports = {
 
   // ── Punishments ───────────────────────────────────────────
   timeout:     "🔇",
-  kick: "<:vm_kick:1496157305257984071>",
-  ban: "<:vm_ban:1496157308227686441>",
-  warn:        "⚠️",
+  kick: "<a:anvi_Kick:1528248610951794819>",
+  ban: "<:icon_19:1490275557374431312>",
+  warn:        "<:Warning:1525843102382690478>",
   delete:      "🗑️",
   mute:        "🔕",
 
@@ -72,7 +72,7 @@ module.exports = {
   raidOn:      "🆘",
   raidOff:     "✅",
   wave:        "🌊",
-  shield: "<:vm_shield:1496157311918674030>",
+  shield: "<:cat_antinuke:1525842918030708756>",
 
   // ── Blacklist ─────────────────────────────────────────────
   blacklist:   "⛔",
@@ -88,7 +88,7 @@ module.exports = {
   case:        "🗂️",
   time:        "⏰",
   user:        "👤",
-  server: "<:vm_server:1496157316339339407>",
+  server: "<:PartnerServer:1528244539935035412>",
 
   // ── Actions ───────────────────────────────────────────────
   add:         "➕",
