@@ -1,14 +1,14 @@
 module.exports = {
   voice: "<:vm_voice:1496157718615031829>",
-  lock: "<:vm_lock:1496157721689329795>",
-  unlock: "<:vm_unlock:1496157725581770864>",
-  hide: "<:vm_hide:1496157734343676008>",
-  unhide: "<:vm_unhide:1496157740798574704>",
+  lock: "<:lock1:1525843031826239728>",
+  unlock: "<:unlock1:1525843099153203302>",
+  hide: "<:hide:1525843007130177708>",
+  unhide: "<:unhide:1525843096808591512>",
   limit: "👥",
-  rename: "<:vm_rename:1496157746226135140>",
-  claim: "<:vm_claim:1496157750160527391>",
-  transfer: "<:vm_transfer:1496157753968689242>",
-  settings: "<:vm_settings:1496157758272307300>",
-  success: "<:vm_success:1496157763204550859>",
-  error: "<:vm_error:1496157767860228298>"
+  rename: "<:vm_admin:1528157663102238731>",
+  claim: "<:claim:1525842970853638245>",
+  transfer: "<:icon_22:1490275574793371813>",
+  settings: "<a:settings:1525964289423446258>",
+  success: "<a:tick_POV:1526075730834882661>",
+  error: "<a:880726error:1526075721892757554>"
 };
