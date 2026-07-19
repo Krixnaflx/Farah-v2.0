@@ -22,8 +22,8 @@ module.exports = {
 
   // ── Bot ──────────────────────────────────────────────────
   token:   "", // Fill in .env or here
-  prefix:  ";",
-  ownerID: "YOUR_DISCORD_ID",
+  prefix:  ",",
+  ownerID: "1370627845419700315",
        
   // ── Developer IDs ────────────────────────────────────────
   devIDs: loadJson("devs.json"),
