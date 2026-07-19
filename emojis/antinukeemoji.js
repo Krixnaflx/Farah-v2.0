@@ -6,29 +6,29 @@
 module.exports = {
 
   // ── Status ───────────────────────────────────────────────
-  shield: "<:vm_shield:1496157162458714295>",
+  shield: "<:cat_antinuke:1525842918030708756>",
   shieldOn: "<:vm_shieldOn:1496157165843513485>",
-  shieldOff: "<:vm_shieldOff:1496157171623395348>",
-  warning: "<:vm_warning:1496157176581066905>",
-  alert:        "🚨",
-  success: "<:vm_success:1496157180519518330>",
-  error: "<:vm_error:1496157184780668928>",
-  info: "<:vm_info:1496157189470027909>",
-  loading: "<a:blackworld:1526066492104249494>",
-  check: "<:vm_check:1496157198437322762>",
+  shieldOff: "<:cross:1525842975249272842>",
+  warning: "<:Warning:1525843102382690478>",
+  alert:        "<a:cx_info:1526075742281273515>",
+  success: "<:tick:1525843080148811857>",
+  error: "<a:z_Unique_Cross:1526066470222565496>",
+  info: "<:info:1525843021122502816>",
+  loading: "<a:blackworld:1526075706780553267>",
+  check: "<a:tick_POV:1526075730834882661>",
 
   // ── Antinuke actions ─────────────────────────────────────
-  quarantine: "<:vm_quarantine:1496157203550310503>",
-  unquarantine: "<:vm_quarantine:1496157203550310503>",
-  ban: "<:vm_ban:1496157209929973770>",
-  kick: "<:vm_kick:1496157215600541766>",
+  quarantine: "<:NG_Jail:1308303740583018566>",
+  unquarantine: "<a:zz_jail:686267772996681836>",
+  ban: "<:icon_19:1490275557374431312>",
+  kick: "<a:anvi_Kick:1528248610951794819>",
   nuke:         "💥",
   panicOn:      "🆘",
   panicOff:     "✅",
   restore:      "🔄",
   backup:       "💾",
-  lock: "<:vm_lock:1496157220650614937>",
-  unlock: "<:vm_unlock:1496157226291691551>",
+  lock: "<:lock1:1525843031826239728>",
+  unlock: "<:unlock1:1525843099153203302>",
 
   // ── Filters ───────────────────────────────────────────────
   channel:      "📢",
@@ -40,11 +40,11 @@ module.exports = {
   prune:        "✂️",
   webhook:      "🔗",
   emoji:        "😀",
-  permission: "<:vm_on:1496157241013964962>",
+  permission: "🤐",
   everyone:     "📣",
 
   // ── Trust hierarchy ───────────────────────────────────────
-  owner:        "👑",
+  owner:        "<:facewithbagsundereyes:1527391592003014736>",
   extraOwner:   "🌟",
   trustedAdmin: "⭐",
   immune:       "🛡️",
@@ -63,7 +63,7 @@ module.exports = {
   partnerCh:    "🤝",
 
   // ── Panic mode ────────────────────────────────────────────
-  panic: "<:vm_panic:1496157234919378984>",
+  panic: "<a:panicdepression:1528249469026566227>",
   lockdown:     "🚫",
   miniWick:     "🤖",
 
@@ -75,8 +75,8 @@ module.exports = {
   edit:         "✏️",
   timer:        "⏰",
   log:          "📋",
-  on: "<:vm_on:1496157241013964962>",
-  off: "<:vm_off:1496157248425164911>",
+  on: "<a:online:1525843048825749535>",
+  off: "<a:offline:1525843043281014845>",
   toggle:       "🔄",
   limit:        "📊",
   ping:         "🔔",
