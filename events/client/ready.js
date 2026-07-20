@@ -28,7 +28,7 @@ module.exports = {
     console.log(chalk.gray(`    Commands: ${client.commands.size}`));
     console.log(chalk.gray(`    Slash   : ${client.slashCmds.size}\n`));
 
-    client.user.setActivity(`${client.config.prefix}help`, { type: 3 });
+    client.user.setActivity(`${client.config.prefix}help  | Awan`, { type: 3 });
 
     // ── Initialize Riffy ──────────────────────────────
     if (client.riffy) {
