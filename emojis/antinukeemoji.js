@@ -18,8 +18,8 @@ module.exports = {
   check: "<a:tick_POV:1526075730834882661>",
 
   // ── Antinuke actions ─────────────────────────────────────
-  quarantine: "<:NG_Jail:1308303740583018566>",
-  unquarantine: "<a:zz_jail:686267772996681836>",
+  quarantine: "<:NG_Jail:1529328284536537169>",
+  unquarantine: "<:NG_Jail:1529328284536537169>",
   ban: "<:icon_19:1490275557374431312>",
   kick: "<a:anvi_Kick:1528248610951794819>",
   nuke:         "💥",
