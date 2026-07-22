@@ -54,9 +54,9 @@ module.exports = {
 
   // ── Lavalink ─────────────────────────────────────────────
   lavalink: {
-    host: "sg2-nodelink.nyxbot.app",
+    host: "lavalink.triniumhost.com",
     port: 3000,
-    password: "nyxbot.app/support",
+    password: "trinium",
     secure: false,
     restVersion: "v4",
     name: "Main Node", 
